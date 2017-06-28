@@ -18,3 +18,7 @@ def find_item(array,search_value)
     end
     return false
 end
+def get_first_key(wallets)
+  return wallets.first[0]
+
+end
