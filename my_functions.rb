@@ -9,3 +9,11 @@ def sum_array(array)
   end
   return total
 end
+
+def find_item(array,search_value)
+    for house in array
+      if (house==search_value) 
+        return true
+      end
+    end
+end
